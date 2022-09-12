@@ -1,0 +1,5 @@
+c=int(input('Enter the number of cookies = '))
+print('No. of boxes = ',c//24)
+print('No. of left over cookies = ',c%24)
+print('No. of containers = ',(c//24)//75)
+print('No. of left over boxes = ',(c//24)%75)

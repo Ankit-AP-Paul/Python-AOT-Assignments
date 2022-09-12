@@ -1,0 +1,5 @@
+y=int(input('Enter the number of years = '))
+print('No. of days = ',y*365)
+print('No. of hours = ',y*365*24)
+print('No. of minutes = ',y*365*24*60)
+print('No. of seconds = ',y*365*24*60*60)
