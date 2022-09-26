@@ -1,20 +1,8 @@
+from numpy import random
 import numpy as np
 
-a=[]
-for i in range(3):
-    print('Enter the row of 3 elements in Matrix 1 = ',end='')
-    r=list(map(int,input().split()))
-    a.append(r)
-x=np.array(a)
-print()
-
-a=[]
-for i in range(3):
-    print('Enter the row of 3 elements in matrix 2 = ',end='')
-    r=list(map(int,input().split()))
-    a.append(r)
-y=np.array(a)
-print()
+x=random.randint(10,size=(3,3))
+y=random.randint(10,size=(3,3))
 
 print('Matrix 1 = ')
 print(x)

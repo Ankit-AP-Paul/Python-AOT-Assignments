@@ -1,11 +1,7 @@
+from numpy import random
 import numpy as np
 
-a=[]
-for i in range(3):
-    print('Enter the row of 3 elements = ',end='')
-    r=list(map(int,input().split()))
-    a.append(r)
-x=np.array(a)
+x=random.randint(100,size=(3,3))
 
 print('Maxtrix = ')
 print(x)

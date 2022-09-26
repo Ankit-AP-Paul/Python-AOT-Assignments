@@ -1,24 +1,12 @@
+from numpy import random
 import numpy as np
 
-a=[]
-for i in range(3):
-    print('Enter the row of 3 elements in Matrix 1 = ',end='')
-    r=list(map(int,input().split()))
-    a.append(r)
-x=np.array(a)
-print()
-
-a=[]
-for i in range(3):
-    print('Enter the row of 3 elements in matrix 2 = ',end='')
-    r=list(map(int,input().split()))
-    a.append(r)
-y=np.array(a)
-print()
+a=random.randint(100,size=(3,3))
+b=random.randint(100,size=(3,3))
 
 print('Matrix 1 = ')
-print(x)
+print(a)
 print('Matrix 2 = ')
-print(y)
+print(b)
 print('Sum = ')
-print(np.add(x,y))
+print(np.add(a,b))
